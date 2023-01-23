@@ -15,7 +15,7 @@
 }
 
 :root {
-    --bg-color: #E5CDEB;
+    --bg-color: #d4beda;
 }
 
 :root {
@@ -210,7 +210,7 @@ body {
 }
 
 .skill-card_size {
-    width: 49%;
+    width: 45%;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -322,6 +322,9 @@ body {
 @media (max-width : 1024px) {
     .flex_width {
         width: 73%;
+    }
+    .skill-card_size {
+        width: 40%;
     }
 }
 
